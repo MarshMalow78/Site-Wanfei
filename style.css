@@ -1,0 +1,317 @@
+/* Header Logo Titre*/
+nav.HautP{
+    background-color: white;
+    display: flex;
+}
+img.Logo{
+    width: 8%; border-radius: 100%; border-color: brown; background-color: white;
+}
+h1.titre{
+    font-family: fantasy;
+    font-size:300% ;
+    color: rgb(44, 85, 44);
+    font-size: auto;
+    margin: auto;
+}
+img.nuage{
+    width: 8%; border-radius: 100%; border-color: brown; background-color: white;
+}
+@media screen and (max-width: 800px) {
+    h1.titre{
+        font-size: 200%;
+    }
+}
+/*Header lien*/
+ul{
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+li {
+    padding : 0.5em;
+    margin: auto;
+}
+li.Acceuil {
+    background-color: white;
+    border:  6px solid rgb(140, 255, 140);
+}
+
+li.Caractéristiques {
+    background-color: white;
+    border: 6px solid rgb(140, 255, 140);
+}
+li.Application {
+    background-color: white;
+    border: 6px solid rgb(140, 255, 140);
+}
+nav.liste {
+    background-color: rgba(0, 128, 0, 0.596);
+    width: 100%;
+}
+a.couleur{
+    color: rgb(140, 255, 140);
+    font-style: oblique;
+}
+/*Main Acceuil*/
+h3.titre{
+    font-family: fantasy;
+    font-size: 200%;
+    margin-left: 10%;
+}
+p.texte1{
+    font-size: 120%;
+    text-align: center;
+    border: 4px solid  rgba(0, 128, 0, 0.596);
+}
+p.texte2{
+    font-size: 100%;
+    text-align: center;
+    margin-left: 10%;
+}
+p.texte3{
+    font-size: 100%;
+    text-align: center;
+    border: 4px solid  rgba(0, 128, 0, 0.596);
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+p.texte4{
+    font-size: 100%;
+    text-align: center;
+}
+.mainA{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img.mainA{
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+/*Main App*/
+.mainapp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    border: 4px solid  rgba(0, 128, 0, 0.596);
+}
+p.txtapp{
+        display: flex;
+        align-items: center;
+    
+}
+.mainapp1{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    margin-left: 10%;
+    width: 75%;
+    margin-top: 2%;
+}
+.mainapp2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 75%;
+    margin-left: 11%;
+    margin-bottom: 3%;
+}
+div.storelien{
+    width: 10%;
+}
+img.googleplay{
+    width: 100%;
+}
+img.appstore{
+    width: 100%;
+}
+img.imgmarge{
+    border: 4px solid  rgba(0, 128, 0, 0.596);
+    margin-left: 2%;
+}
+img.imgmarge2{
+    border: 4px solid  rgba(0, 128, 0, 0.596);
+    margin-right: 2%;
+}
+a.google{
+    margin: 5%;
+    width: 100%;
+}
+a.apple{
+    margin: 5%;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    div.mainapp{
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 90%;
+    }
+    div.storelien{
+        width: 25%;
+        margin-right: 3%;
+    }
+}
+@media screen and (max-width: 500px) {
+    p.txtapp{
+        font-size: 80%;
+    }
+    div.mainapp{
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 90%;
+    }
+    div.storelien{
+        width: 50%;
+        margin-right: 3%;
+    }
+}
+/* Main Caractéristique */
+.maincara1{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.maincara2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.maincara3{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+img.img1{
+    width: 25%;
+}
+img.img2{
+    width: 35%;
+}
+img.img3{
+    width: 40%;
+}
+@media screen and (max-width: 800px) {
+    img.img1{
+        width :50%;
+    }
+    img.img2{
+        width: 50%;
+    }
+    img.img3{
+        width: 80%;
+    }
+    div.maincara3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 600px) {
+    img.img1{
+        width :40%;
+    }
+    img.img2{
+        width: 40%;
+    }
+    img.img3{
+        width: 80%;
+    }
+    div.maincara3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/* Main Support */
+h3.titreS{
+    font-family: fantasy;
+    font-size: 200%;
+    text-align: center;
+}
+p.pS{
+    text-align: center;
+    margin-bottom: 5%;
+}
+input.tal1{
+    width: 20%;
+}
+input.tal2{
+    width: 20%;
+}
+input.tal3{
+    width: 25%;
+}
+div.pos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+div.talD{
+    height: 200px;
+    width: 200px;
+}
+textarea.texte {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    padding: 1px;
+    width: 500px;
+    height: 300px;
+    resize: none;
+}
+textarea.pos{
+    margin-left: 32% ;
+    margin-bottom: 5%;
+}
+input.submit{
+    color: white;
+    background-color: rgba(0, 128, 0, 0.596);
+    border-color: rgba(0, 128, 0, 0.596);
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 1100px) {
+    textarea.texte{
+        width: 300px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 600px) {
+    textarea.texte{
+        width: 250px;
+        height: 150px;
+    }
+}
+/*footer*/
+footer{
+    display: flex;
+    background-color: rgba(0, 128, 0, 0.596);
+    justify-content: center;
+}
+p.centre{
+    text-align: center;
+    margin: auto;
+    width: 100%;   
+}
+a.posC {
+    background-color: white;
+    border: 6px solid rgb(140, 255, 140);
+    width: 25%;
+}
